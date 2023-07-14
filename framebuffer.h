@@ -237,15 +237,51 @@ void render() {
 //    currentColor = Color(0, 0, 255);  // Relleno azul
 //    fillPolygon(polygon2Points);
 
-    // Dibujar polígono 3
-    std::vector<Vertex2> polygon3Points;
-    polygon3Points.push_back(Vertex2(377, 249));
-    polygon3Points.push_back(Vertex2(411, 197));
-    polygon3Points.push_back(Vertex2(436, 249));
+//    // Dibujar polígono 3
+//    std::vector<Vertex2> polygon3Points;
+//    polygon3Points.push_back(Vertex2(377, 249));
+//    polygon3Points.push_back(Vertex2(411, 197));
+//    polygon3Points.push_back(Vertex2(436, 249));
+//    currentColor = Color(255, 255, 255);  // Línea blanca
+//    drawPolygon(polygon3Points);
+//    currentColor = Color(255, 0, 0);  // Relleno rojo
+//    fillPolygon(polygon3Points);
+
+    // Dibujar polígono 4
+    std::vector<Vertex2> polygon4Points;
+    polygon4Points.push_back(Vertex2(413, 177));
+    polygon4Points.push_back(Vertex2(448, 159));
+    polygon4Points.push_back(Vertex2(502, 88));
+    polygon4Points.push_back(Vertex2(553, 53));
+    polygon4Points.push_back(Vertex2(535, 36));
+    polygon4Points.push_back(Vertex2(676, 37));
+    polygon4Points.push_back(Vertex2(660, 52));
+    polygon4Points.push_back(Vertex2(750, 145));
+    polygon4Points.push_back(Vertex2(761, 179));
+    polygon4Points.push_back(Vertex2(672, 192));
+    polygon4Points.push_back(Vertex2(659, 214));
+    polygon4Points.push_back(Vertex2(615, 214));
+    polygon4Points.push_back(Vertex2(632, 230));
+    polygon4Points.push_back(Vertex2(580, 230));
+    polygon4Points.push_back(Vertex2(597, 215));
+    polygon4Points.push_back(Vertex2(552, 214));
+    polygon4Points.push_back(Vertex2(517, 144));
+    polygon4Points.push_back(Vertex2(466, 180));
     currentColor = Color(255, 255, 255);  // Línea blanca
-    drawPolygon(polygon3Points);
-    currentColor = Color(255, 0, 0);  // Relleno rojo
-    fillPolygon(polygon3Points);
+    drawPolygon(polygon4Points);
+    currentColor = Color(0, 255, 0);  // Relleno verde
+    fillPolygon(polygon4Points);
+
+    // Dibujar polígono 5
+    std::vector<Vertex2> polygon5Points;
+    polygon5Points.push_back(Vertex2(682, 175));
+    polygon5Points.push_back(Vertex2(708, 120));
+    polygon5Points.push_back(Vertex2(735, 148));
+    polygon5Points.push_back(Vertex2(739, 170));
+    currentColor = Color(255, 255, 255);  // Línea blanca
+    drawPolygon(polygon5Points);
+    currentColor = Color(0, 0, 0);  // Relleno negro
+    fillPolygon(polygon5Points);
 
     renderBuffer();
 }
