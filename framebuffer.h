@@ -224,16 +224,26 @@ void render() {
     currentColor = Color(255, 255, 0);  // Relleno azul
     fillPolygon(polygon1Points);
 
-    // Dibujar polígono 2
-    std::vector<Vertex2> polygon2Points;
-    polygon2Points.push_back(Vertex2(321, 335));
-    polygon2Points.push_back(Vertex2(288, 286));
-    polygon2Points.push_back(Vertex2(339, 251));
-    polygon2Points.push_back(Vertex2(374, 302));
+//    // Dibujar polígono 2
+//    std::vector<Vertex2> polygon2Points;
+//    polygon2Points.push_back(Vertex2(321, 335));
+//    polygon2Points.push_back(Vertex2(288, 286));
+//    polygon2Points.push_back(Vertex2(339, 251));
+//    polygon2Points.push_back(Vertex2(374, 302));
+//    currentColor = Color(255, 255, 255);  // Línea blanca
+//    drawPolygon(polygon2Points);
+//    currentColor = Color(0, 0, 255);  // Relleno azul
+//    fillPolygon(polygon2Points);
+
+    // Dibujar polígono 3
+    std::vector<Vertex2> polygon3Points;
+    polygon3Points.push_back(Vertex2(377, 249));
+    polygon3Points.push_back(Vertex2(411, 197));
+    polygon3Points.push_back(Vertex2(436, 249));
     currentColor = Color(255, 255, 255);  // Línea blanca
-    drawPolygon(polygon2Points);
-    currentColor = Color(0, 0, 255);  // Relleno azul
-    fillPolygon(polygon2Points);
+    drawPolygon(polygon3Points);
+    currentColor = Color(255, 0, 0);  // Relleno rojo
+    fillPolygon(polygon3Points);
 
     renderBuffer();
 }
