@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Polygons",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Polygons::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Polygons-Debug-cf2d4f5d6d4cff29be28.json",
+					"name" : "Polygons",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/mario/OneDrive/Escritorio/Uni/SEXTO SEMESTRE/Graficos Compu/Polygons/polygons/cmake-build-debug",
+		"source" : "C:/Users/mario/OneDrive/Escritorio/Uni/SEXTO SEMESTRE/Graficos Compu/Polygons/polygons"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

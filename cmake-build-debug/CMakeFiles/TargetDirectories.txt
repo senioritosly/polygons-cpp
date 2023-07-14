@@ -1,0 +1,3 @@
+C:/Users/mario/OneDrive/Escritorio/Uni/SEXTO SEMESTRE/Graficos Compu/Polygons/polygons/cmake-build-debug/CMakeFiles/Polygons.dir
+C:/Users/mario/OneDrive/Escritorio/Uni/SEXTO SEMESTRE/Graficos Compu/Polygons/polygons/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mario/OneDrive/Escritorio/Uni/SEXTO SEMESTRE/Graficos Compu/Polygons/polygons/cmake-build-debug/CMakeFiles/rebuild_cache.dir
