@@ -225,15 +225,15 @@ void render() {
     fillPolygon(polygon1Points);
 
 //    // Dibujar polígono 2
-//    std::vector<Vertex2> polygon2Points;
-//    polygon2Points.push_back(Vertex2(321, 335));
-//    polygon2Points.push_back(Vertex2(288, 286));
-//    polygon2Points.push_back(Vertex2(339, 251));
-//    polygon2Points.push_back(Vertex2(374, 302));
-//    currentColor = Color(255, 255, 255);  // Línea blanca
-//    drawPolygon(polygon2Points);
-//    currentColor = Color(0, 0, 255);  // Relleno azul
-//    fillPolygon(polygon2Points);
+    std::vector<Vertex2> polygon2Points;
+    polygon2Points.push_back(Vertex2(321, 335));
+    polygon2Points.push_back(Vertex2(288, 286));
+    polygon2Points.push_back(Vertex2(339, 251));
+    polygon2Points.push_back(Vertex2(374, 302));
+    currentColor = Color(255, 255, 255);  // Línea blanca
+    drawPolygon(polygon2Points);
+    currentColor = Color(0, 0, 255);  // Relleno azul
+    fillPolygon(polygon2Points);
 
     // Dibujar polígono 3
     std::vector<Vertex2> polygon3Points;
