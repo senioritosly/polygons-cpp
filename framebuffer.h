@@ -202,13 +202,29 @@ void render() {
     clear();
 
     // Dibujar polígono (ejemplo)
-    std::vector<Vertex2> polygonPoints;
-    polygonPoints.push_back(Vertex2(100, 200));
-    polygonPoints.push_back(Vertex2(200, 300));
-    polygonPoints.push_back(Vertex2(300, 400));
-    polygonPoints.push_back(Vertex2(400, 300));
-    drawPolygon(polygonPoints);
-    fillPolygon(polygonPoints);
+//    std::vector<Vertex2> polygonPoints;
+//    polygonPoints.push_back(Vertex2(100, 200));
+//    polygonPoints.push_back(Vertex2(200, 300));
+//    polygonPoints.push_back(Vertex2(300, 400));
+//    polygonPoints.push_back(Vertex2(400, 300));
+//    drawPolygon(polygonPoints);
+//    fillPolygon(polygonPoints);
+
+    std::vector<Vertex2> polygon1Points;
+    polygon1Points.push_back(Vertex2(165, 380));
+    polygon1Points.push_back(Vertex2(185, 360));
+    polygon1Points.push_back(Vertex2(180, 330));
+    polygon1Points.push_back(Vertex2(207, 345));
+    polygon1Points.push_back(Vertex2(233, 330));
+    polygon1Points.push_back(Vertex2(230, 360));
+    polygon1Points.push_back(Vertex2(250, 380));
+    polygon1Points.push_back(Vertex2(220, 385));
+    polygon1Points.push_back(Vertex2(205, 410));
+    polygon1Points.push_back(Vertex2(193, 383));
+    currentColor = Color(0, 0, 255);  // Relleno azul
+    fillPolygon(polygon1Points);
+    currentColor = Color(255, 255, 255);  // Línea blanca
+    drawPolygon(polygon1Points);
 
     renderBuffer();
 }
