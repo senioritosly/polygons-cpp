@@ -236,14 +236,14 @@ void render() {
     fillPolygon(polygon2Points);
 
 //    // Dibujar polígono 3
-//    std::vector<Vertex2> polygon3Points;
-//    polygon3Points.push_back(Vertex2(377, 249));
-//    polygon3Points.push_back(Vertex2(411, 197));
-//    polygon3Points.push_back(Vertex2(436, 249));
-//    currentColor = Color(255, 255, 255);  // Línea blanca
-//    drawPolygon(polygon3Points);
-//    currentColor = Color(255, 0, 0);  // Relleno rojo
-//    fillPolygon(polygon3Points);
+    std::vector<Vertex2> polygon3Points;
+    polygon3Points.push_back(Vertex2(377, 249));
+    polygon3Points.push_back(Vertex2(411, 197));
+    polygon3Points.push_back(Vertex2(436, 249));
+    currentColor = Color(255, 255, 255);  // Línea blanca
+    drawPolygon(polygon3Points);
+    currentColor = Color(255, 0, 0);  // Relleno rojo
+    fillPolygon(polygon3Points);
 
     // Dibujar polígono 4
     std::vector<Vertex2> polygon4Points;
