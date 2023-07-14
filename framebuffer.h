@@ -221,7 +221,7 @@ void render() {
     polygon1Points.push_back(Vertex2(220, 385));
     polygon1Points.push_back(Vertex2(205, 410));
     polygon1Points.push_back(Vertex2(193, 383));
-    currentColor = Color(0, 0, 255);  // Relleno azul
+    currentColor = Color(255, 255, 0);  // Relleno azul
     fillPolygon(polygon1Points);
     currentColor = Color(255, 255, 255);  // Línea blanca
     drawPolygon(polygon1Points);
